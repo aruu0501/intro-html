@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Little Constellation ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Stars Background -->
+    <div class="stars-container" id="starsContainer"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#timeline" class="nav-link">Timeline</a>
+        <a href="#gallery" class="nav-link">Moments</a>
+        <a href="#letters" class="nav-link">Letters</a>
+        <a href="#quirks" class="nav-link">Quirks</a>
+        <a href="#playlist" class="nav-link">Playlist</a>
+    </nav>
+
+    <!-- Section 1: Welcome -->
+    <section id="home" class="section hero">
+        <div class="container">
+            <h1 class="title fade-in">Our Little Constellation</h1>
+            <p class="subtitle fade-in">Kabhi-kabhi dil ko sirf yaad dilane ki zarurat hoti hai—<br>hum dono ki.</p>
+            <p class="intro-text fade-in">Jo baatein kehna mushkil lagti hain, unhe yahan sajaya hai.</p>
+            
+            <!-- Interactive Constellation Map -->
+            <div class="constellation-map">
+                <div class="constellation-star" data-section="timeline">
+                    <div class="star-icon">⭐</div>
+                    <div class="star-label">Timeline</div>
+                </div>
+                <div class="constellation-star" data-section="gallery">
+                    <div class="star-icon">✨</div>
+                    <div class="star-label">Moments</div>
+                </div>
+                <div class="constellation-star" data-section="letters">
+                    <div class="star-icon">💌</div>
+                    <div class="star-label">Letters</div>
+                </div>
+                <div class="constellation-star" data-section="quirks">
+                    <div class="star-icon">💫</div>
+                    <div class="star-label">Us</div>
+                </div>
+                <div class="constellation-star" data-section="playlist">
+                    <div class="star-icon">🎵</div>
+                    <div class="star-label">Music</div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <div class="arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Timeline of Us -->
+    <section id="timeline" class="section timeline-section">
+        <div class="container">
+            <h2 class="section-title">Timeline of Us</h2>
+            <p class="section-subtitle">Har pal ek nayi shuruat</p>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">📅 January 2023</div>
+                    <div class="timeline-card">
+                        <div class="timeline-image">
+                            <img src="https://via.placeholder.com/400x300/FFE5E5/FF69B4?text=First+Chat" alt="First Chat">
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Pehli Baat</h3>
+                            <p>Jab tumne pehli baar "Hi" kaha, maine socha nahi tha ki yeh conversation kabhi khatam nahi hogi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">☕ March 2023</div>
+                    <div class="timeline-card">
+                        <div class="timeline-image">
+                            <img src="https://via.placeholder.com/400x300/E5F5FF/4A90E2?text=First+Date" alt="First Date">
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Pehli Coffee</h3>
+                            <p>Tumhari nervous smile aur endless chai ki demand—woh din bhool nahi sakta.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">🎬 June 2023</div>
+                    <div class="timeline-card">
+                        <div class="timeline-image">
+                            <img src="https://via.placeholder.com/400x300/FFF5E5/FFA500?text=Movie+Night" alt="Movie Night">
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Movie Wala Din</h3>
+                            <p>Tumne popcorn se zyada mujhe dekha tha. Maine notice kiya tha. 😊</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">🌧️ August 2023</div>
+                    <div class="timeline-card">
+                        <div class="timeline-image">
+                            <img src="https://via.placeholder.com/400x300/E5FFE5/90EE90?text=Rainy+Day" alt="Rainy Day">
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Baarish Mein</h3>
+                            <p>Bheegna galat tha, par tumhare saath galat bhi sahi laga.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">🎉 December 2023</div>
+                    <div class="timeline-card">
+                        <div class="timeline-image">
+                            <img src="https://via.placeholder.com/400x300/F5E5FF/DA70D6?text=Celebration" alt="Celebration">
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Hum Dono</h3>
+                            <p>Jab humne decide kiya ki yeh journey saath chalenge.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">💝 Aaj</div>
+                    <div class="timeline-card timeline-today">
+                        <div class="timeline-content">
+                            <h3>Aaj Ka Din</h3>
+                            <p>Aaj main phir se tumse shuru karna chahta hoon.<br>Pehle se behtar, pehle se zyada samajhdar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Moments Gallery -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">Captured Moments</h2>
+            <p class="section-subtitle">Har tasveer ek kahani</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/FFB6C1/FFFFFF?text=Us+1" alt="Moment 1">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Tumhari hasi—sabse khoobsurat awaaz</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/ADD8E6/FFFFFF?text=Us+2" alt="Moment 2">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Jab tum serious hoti ho, duniya ruk jaati hai</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/FFE4B5/FFFFFF?text=Us+3" alt="Moment 3">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Chai pe tumhara "bas thoda aur"</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/F0E68C/FFFFFF?text=Us+4" alt="Moment 4">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Silly moments jo dil me base hain</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/DDA0DD/FFFFFF?text=Us+5" alt="Moment 5">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Tumhara gussa bhi pyaara lagta hai</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/98FB98/FFFFFF?text=Us+6" alt="Moment 6">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Saath chalna, saath chalte rehna</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/FFDAB9/FFFFFF?text=Us+7" alt="Moment 7">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Little things jo big hain</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/E6E6FA/FFFFFF?text=Us+8" alt="Moment 8">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Tumhare aankhon ka focus jab serious ho</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/400x400/FFE4E1/FFFFFF?text=Us+9" alt="Moment 9">
+                    <div class="gallery-overlay">
+                        <p class="gallery-text">Ye safar, ye pal—sab tumhare saath</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Letters -->
+    <section id="letters" class="section letters-section">
+        <div class="container">
+            <h2 class="section-title">Letters You Can Open</h2>
+            <p class="section-subtitle">Dil ki baatein, kagaz pe</p>
+            
+            <div class="letters-grid">
+                <div class="letter-envelope" data-letter="1">
+                    <div class="envelope-icon">💌</div>
+                    <h3>I'm Sorry</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+                
+                <div class="letter-envelope" data-letter="2">
+                    <div class="envelope-icon">💝</div>
+                    <h3>What I Love</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+                
+                <div class="letter-envelope" data-letter="3">
+                    <div class="envelope-icon">🌱</div>
+                    <h3>What I Learned</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+                
+                <div class="letter-envelope" data-letter="4">
+                    <div class="envelope-icon">🤝</div>
+                    <h3>My Promises</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+                
+                <div class="letter-envelope" data-letter="5">
+                    <div class="envelope-icon">✨</div>
+                    <h3>Future Plans</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+                
+                <div class="letter-envelope" data-letter="6">
+                    <div class="envelope-icon">💫</div>
+                    <h3>Wish Jar</h3>
+                    <p class="envelope-subtitle">Click to open</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Letter Modal -->
+    <div id="letterModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="letterContent"></div>
+        </div>
+    </div>
+
+    <!-- Section 5: Little Quirks -->
+    <section id="quirks" class="section quirks-section">
+        <div class="container">
+            <h2 class="section-title">Little Quirks We Share</h2>
+            <p class="section-subtitle">Hum dono ki chhoti-chhoti baatein</p>
+            
+            <div class="quirks-grid">
+                <div class="quirk-card">
+                    <h3>☕ Coffee vs Chai?</h3>
+                    <div class="quirk-toggle">
+                        <span>☕ Coffee</span>
+                        <span>🍵 Chai</span>
+                    </div>
+                    <p class="quirk-result">Tum: Chai forever | Me: Coffee addict</p>
+                </div>
+                
+                <div class="quirk-card">
+                    <h3>🌙 Night Owl vs Early Bird?</h3>
+                    <div class="quirk-toggle">
+                        <span>🌙 Night</span>
+                        <span>🌅 Morning</span>
+                    </div>
+                    <p class="quirk-result">Tum: Morning person | Me: 2 AM thoughts</p>
+                </div>
+                
+                <div class="quirk-card">
+                    <h3>🍫 Sweet vs Salty?</h3>
+                    <div class="quirk-toggle">
+                        <span>🍫 Sweet</span>
+                        <span>🧂 Salty</span>
+                    </div>
+                    <p class="quirk-result">Tum: Chocolate lover | Me: Chips > All</p>
+                </div>
+                
+                <div class="quirk-card">
+                    <h3>📚 Book vs Movie?</h3>
+                    <div class="quirk-toggle">
+                        <span>📚 Book</span>
+                        <span>🎬 Movie</span>
+                    </div>
+                    <p class="quirk-result">Dono same: Movie date perfect!</p>
+                </div>
+            </div>
+            
+            <div class="secret-button-container">
+                <button id="secretButton" class="secret-button">
+                    ✨ Secret Button ✨
+                </button>
+                <p id="compliment" class="compliment-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Playlist -->
+    <section id="playlist" class="section playlist-section">
+        <div class="container">
+            <h2 class="section-title">Songs That Feel Like Us</h2>
+            <p class="section-subtitle">Har gaana ek yaad</p>
+            
+            <div class="playlist-container">
+                <div class="playlist-item">
+                    <div class="song-icon">🎵</div>
+                    <div class="song-info">
+                        <h4>Pehli Nazar Mein</h4>
+                        <p class="song-memory">Jab pehli baar dekha tha tumhe</p>
+                    </div>
+                </div>
+                
+                <div class="playlist-item">
+                    <div class="song-icon">🎶</div>
+                    <div class="song-info">
+                        <h4>Tum Hi Ho</h4>
+                        <p class="song-memory">Kyunki sach me, tum hi ho</p>
+                    </div>
+                </div>
+                
+                <div class="playlist-item">
+                    <div class="song-icon">🎵</div>
+                    <div class="song-info">
+                        <h4>Raabta</h4>
+                        <p class="song-memory">Humara connection special hai</p>
+                    </div>
+                </div>
+                
+                <div class="playlist-item">
+                    <div class="song-icon">🎶</div>
+                    <div class="song-info">
+                        <h4>Tera Ban Jaunga</h4>
+                        <p class="song-memory">Promise forever wala</p>
+                    </div>
+                </div>
+                
+                <div class="playlist-item">
+                    <div class="song-icon">🎵</div>
+                    <div class="song-info">
+                        <h4>Kaise Hua</h4>
+                        <p class="song-memory">Exactly—kaise hua pyaar?</p>
+                    </div>
+                </div>
+
+                <!-- Spotify Embed Placeholder -->
+                <div class="spotify-embed">
+                    <p style="text-align: center; color: #C8B6E2;">
+                        <em>Yahan apna Spotify playlist embed kar sakte ho</em><br>
+                        <small>Spotify → Share → Embed playlist → Copy code yahan paste karo</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 7: A Gentle Ask -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Agar Tum Ready Ho</h2>
+            <p class="section-subtitle">Main sunne ko taiyar hoon</p>
+            
+            <div class="contact-content">
+                <p class="contact-message">
+                    Is website ko banane me dil lagaya hai.<br>
+                    Har section, har word—tumhare liye.<br><br>
+                    Main perfect nahi hoon, par improve hona chahta hoon.<br>
+                    Tumhare saath, tumhare liye.
+                </p>
+                
+                <div class="contact-buttons">
+                    <a href="https://wa.me/1234567890?text=Hi%20I%20want%20to%20talk" class="btn btn-primary" target="_blank">
+                        💬 Talk Now
+                    </a>
+                    <button class="btn btn-secondary" id="scheduleBtn">
+                        ⏰ When You're Ready
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Modal -->
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="scheduleClose">&times;</span>
+            <h3>Jab Tum Ready Ho</h3>
+            <p>Bata do kab baat karna chahogi</p>
+            <form id="scheduleForm">
+                <input type="date" id="scheduleDate" required>
+                <input type="time" id="scheduleTime" required>
+                <textarea id="scheduleNote" placeholder="Kuch kehna ho to..." rows="3"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with 💝 for someone special</p>
+        <p class="footer-small">Har star tumhare liye chamakta hai</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
